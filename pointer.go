@@ -30,4 +30,12 @@ func main() {
 
 	fmt.Println(alamat2)
 	fmt.Println(alamat4)
+
+	alamat4 = &Alamat{"Jambu", "Tokyo", "Jepang"}
+
+	alamat4.Jalan = "Shiro"
+
+	fmt.Println(alamat2)
+	fmt.Println(alamat4)
+
 }
